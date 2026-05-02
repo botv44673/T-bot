@@ -1,6 +1,6 @@
 {
-  "name": "temp-mail-bot",
-  "version": "1.0.0",
+  "name": "fake-mail-bot",
+  "version": "2.0.0",
   "scripts": {
     "start": "node bot.js"
   },
