@@ -1,7 +1,8 @@
 const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 
-const BOT_TOKEN = process.env.BOT_TOKEN || "";
+// Token Railway Variables se lega
+const BOT_TOKEN = process.env.BOT_TOKEN;
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
 const users = {};
